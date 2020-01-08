@@ -1,0 +1,100 @@
+-------------------------------------------------
+ nench.sh v2019.06.29 -- https://git.io/nench.sh
+ benchmark timestamp:    2019-07-11 12:54:21 UTC
+-------------------------------------------------
+
+Processor:    Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+CPU cores:    4
+Frequency:    2400.236 MHz
+RAM:          15G
+Swap:         -
+Kernel:       Linux 4.15.0-1043-aws x86_64
+
+Disks:
+loop0   88.4M  HDD
+loop1   12.7M  HDD
+loop2     18M  HDD
+loop3   17.9M  HDD
+loop4   88.5M  HDD
+xvda    320G  SSD
+
+CPU: SHA256-hashing 500 MB
+    3.239 seconds
+CPU: bzip2-compressing 500 MB
+    5.552 seconds
+CPU: AES-encrypting 500 MB
+    1.717 seconds
+
+ioping: seek rate
+    min/avg/max/mdev = 181.1 us / 269.0 us / 33.7 ms / 415.2 us
+ioping: sequential read speed
+    generated 2.93 k requests in 5.00 s, 731.5 MiB, 585 iops, 146.3 MiB/s
+
+dd: sequential write speed
+    1st run:    125.89 MiB/s
+    2nd run:    123.98 MiB/s
+    3rd run:    123.02 MiB/s
+    average:    124.30 MiB/s
+
+IPv4 speedtests
+    your IPv4:    13.209.144.xxxx
+
+    Cachefly CDN:         35.17 MiB/s
+    Leaseweb (NL):        3.58 MiB/s
+    Softlayer DAL (US):   5.20 MiB/s
+    Online.net (FR):      4.40 MiB/s
+    OVH BHS (CA):         3.94 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
+-------------------------------------------------
+ nench.sh v2019.06.29 -- https://git.io/nench.sh
+ benchmark timestamp:    2019-07-11 12:56:02 UTC
+-------------------------------------------------
+
+Processor:    Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz
+CPU cores:    4
+Frequency:    2400.236 MHz
+RAM:          15G
+Swap:         -
+Kernel:       Linux 4.15.0-1043-aws x86_64
+
+Disks:
+loop0   88.4M  HDD
+loop1   12.7M  HDD
+loop2     18M  HDD
+loop3   17.9M  HDD
+loop4   88.5M  HDD
+xvda    320G  SSD
+
+CPU: SHA256-hashing 500 MB
+    3.232 seconds
+CPU: bzip2-compressing 500 MB
+    5.543 seconds
+CPU: AES-encrypting 500 MB
+    1.695 seconds
+
+ioping: seek rate
+    min/avg/max/mdev = 180.9 us / 270.1 us / 8.03 ms / 143.4 us
+ioping: sequential read speed
+    generated 2.93 k requests in 5.00 s, 731.5 MiB, 585 iops, 146.3 MiB/s
+
+dd: sequential write speed
+    1st run:    125.89 MiB/s
+    2nd run:    123.98 MiB/s
+    3rd run:    123.98 MiB/s
+    average:    124.61 MiB/s
+
+IPv4 speedtests
+    your IPv4:    13.209.144.xxxx
+
+    Cachefly CDN:         34.98 MiB/s
+    Leaseweb (NL):        3.43 MiB/s
+    Softlayer DAL (US):   5.57 MiB/s
+    Online.net (FR):      4.73 MiB/s
+    OVH BHS (CA):         3.91 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
