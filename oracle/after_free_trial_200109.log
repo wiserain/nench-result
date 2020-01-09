@@ -1,0 +1,92 @@
+-------------------------------------------------
+ nench.sh v2019.07.20 -- https://git.io/nench.sh
+ benchmark timestamp:    2020-01-09 12:33:24 UTC
+-------------------------------------------------
+
+Processor:    AMD EPYC 7551 32-Core Processor
+CPU cores:    2
+Frequency:    1996.244 MHz
+RAM:          982M
+Swap:         -
+Kernel:       Linux 4.15.0-1029-oracle x86_64
+
+Disks:
+loop0   89.1M  HDD
+loop1   17.3M  HDD
+loop2   89.1M  HDD
+sda     50G  HDD
+
+CPU: SHA256-hashing 500 MB
+    10.936 seconds
+CPU: bzip2-compressing 500 MB
+    20.466 seconds
+CPU: AES-encrypting 500 MB
+    4.292 seconds
+
+ioping: seek rate
+    ioping: sequential read speed
+    
+dd: sequential write speed
+    1st run:    52.55 MiB/s
+    2nd run:    49.21 MiB/s
+    3rd run:    49.21 MiB/s
+    average:    50.32 MiB/s
+
+IPv4 speedtests
+    your IPv4:    132.145.91.xxxx
+
+    Cachefly CDN:         5.38 MiB/s
+    Leaseweb (NL):        0.03 MiB/s
+    Softlayer DAL (US):   3.59 MiB/s
+    Online.net (FR):      0.04 MiB/s
+    OVH BHS (CA):         3.37 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
+-------------------------------------------------
+ nench.sh v2019.07.20 -- https://git.io/nench.sh
+ benchmark timestamp:    2020-01-09 12:36:02 UTC
+-------------------------------------------------
+
+Processor:    AMD EPYC 7551 32-Core Processor
+CPU cores:    2
+Frequency:    1996.244 MHz
+RAM:          982M
+Swap:         -
+Kernel:       Linux 4.15.0-1029-oracle x86_64
+
+Disks:
+loop0   89.1M  HDD
+loop1   17.3M  HDD
+loop2   89.1M  HDD
+sda     50G  HDD
+
+CPU: SHA256-hashing 500 MB
+    10.829 seconds
+CPU: bzip2-compressing 500 MB
+    20.493 seconds
+CPU: AES-encrypting 500 MB
+    4.311 seconds
+
+ioping: seek rate
+    ioping: sequential read speed
+    
+dd: sequential write speed
+    1st run:    52.36 MiB/s
+    2nd run:    49.30 MiB/s
+    3rd run:    49.30 MiB/s
+    average:    50.32 MiB/s
+
+IPv4 speedtests
+    your IPv4:    132.145.91.xxxx
+
+    Cachefly CDN:         5.45 MiB/s
+    Leaseweb (NL):        1.31 MiB/s
+    Softlayer DAL (US):   3.65 MiB/s
+    Online.net (FR):      0.04 MiB/s
+    OVH BHS (CA):         4.45 MiB/s
+
+No IPv6 connectivity detected
+-------------------------------------------------
+
